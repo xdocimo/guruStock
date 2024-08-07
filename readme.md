@@ -17,3 +17,7 @@ Instala las dependencias necesarias usando pip:
 
 ```bash
 pip install pandas yfinance tabulate numpy
+
+```
+
+Inspirado por https://github.com/pythonstock/stock | Proyecto Chino descontinuado pionero en el scrapping de stocks por Python
