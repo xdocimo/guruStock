@@ -19,7 +19,19 @@ tickers = ['MORI.BA', 'TGNO4.BA', 'COME.BA', 'YPFD.BA', 'BMA.BA', 'TECO2.BA', 'B
            'IRSA.BA', 'MOLA.BA', 'IRCP.BA', 'EDV.BA', 'HAPU.BA', 'JMIN.BA', 'AUSO.BA', 'TGLT.BA', 'GCLA.BA', 
            'SEMI.BA', 'BRIO6.BA', 'INVJ.BA', 'INDU.BA', 'SAMIB.BA', 'INAG.BA', 'ESME.BA', 'BSEP.BA', 'CAPX.BA', 
            'CONA.BA', 'BULI.BA', 'TECO.BA', 'TS.BA', 'GFG.BA', 'JUNC.BA', 'TRIO.BA', 'DGCU2.BA', 'APBR.BA', 
-           'FRAN.BA', 'FERRUM.BA']
+           'FRAN.BA', 'FERRUM.BA', "ALUA.BA", "AUSO.BA", "BBAR.BA", "VALO.BA", "BHIP.BA", "BMA.BA", "BPAT.BA", 
+           "GAMI.BA", "BOLT.BA", "BYMA.BA", "CVH.BA", "CGPA2.BA", "CAPX.BA", "CARC.BA", 
+           "CADO.BA", "CELU.BA", "CECO2.BA", "CEPU2.BA", "URBA.BA", "COMO.BA", "INTR.BA", 
+           "CTIO.BA", "CRES.BA", "DGCU2.BA", "DGCE.BA", "DOME.BA", "EDSH.BA", "EDLH.BA", 
+           "EMAC.BA", "FERR.BA", "FIPL.BA", "GARO.BA", "GCDI.BA", "GRIM.BA", "GCLA.BA", 
+           "OEST.BA", "GGAL.BA", "SUPV.BA", "HAVA.BA", "HARG.BA", "HSAT.BA", "HULI.BA", 
+           "PATA.BA", "ROSE.BA", "INAG.BA", "IEBA.BA", "INVJ.BA", "IRSA.BA", "LEDE.BA", 
+           "LONG.BA", "METR.BA", "MIRG.BA", "MOLA.BA", "SEMI.BA", "MOLI.BA", "MORI.BA", 
+           "GBAN.BA", "NCON.BA", "PAMP.BA", "PREN1.BA", "PATR.BA", "POLL.BA", "RIGO.BA", 
+           "SAMI.BA", "COME.BA", "TECO2.BA", "TXAR.BA", "TGNO4.BA", "TGSU2.BA"]
+
+# Remove duplicates
+tickers = list(set(tickers))
 
 hoy = datetime.today()
 inicio_del_mes = hoy.replace(day=1)
