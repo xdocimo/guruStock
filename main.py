@@ -30,9 +30,6 @@ tickers = ['MORI.BA', 'TGNO4.BA', 'COME.BA', 'YPFD.BA', 'BMA.BA', 'TECO2.BA', 'B
            "GBAN.BA", "NCON.BA", "PAMP.BA", "PREN1.BA", "PATR.BA", "POLL.BA", "RIGO.BA", 
            "SAMI.BA", "COME.BA", "TECO2.BA", "TXAR.BA", "TGNO4.BA", "TGSU2.BA"]
 
-# Remove duplicates
-tickers = list(set(tickers))
-
 hoy = datetime.today()
 inicio_del_mes = hoy.replace(day=1)
 inicio_ultimas_24h = hoy - timedelta(days=1)
